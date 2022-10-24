@@ -1,0 +1,31 @@
+:root {
+    --primary-tex-color: #757575;
+    --title-text-color: #212121;
+    --secondary-text-color:#2196F3;
+    --first-accent-color: #FFFFFF;
+    --second-accent-color: rgba(255, 255, 255, 0.6);
+}
+/* <--!body */
+.page {
+    background-color: var(--first-accent-color);
+   font-family:"Roboto","Relaway";
+}
+h1,h2,h3 {
+    font-family:"Roboto" ;
+}
+.logo {text-decoration: none;
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+    
+        letter-spacing: 0.03em;
+    
+        color:var(--secondary-text-color)
+}
+.logo:hover{color: #2196F3
+}
+.site-links.link{
+    color:var(--secondary-text-color) ;
+}
